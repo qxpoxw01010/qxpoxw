@@ -75,7 +75,7 @@ a:link, a:activied{color:#000000}
 .header{margin-bottom:10px; width:100%; height:50px; position:relative; background-color:#e98110}
 .header h1{text-align:center; font-size:1.25em; line-height:50px; color:#ffffff}
 .header a{color:#ffffff;}
-.nav_left, .nav_right{ width:60px; line-height:40px; background-color:#fa9120; text-align:center; position:absolute; top:5px; overflow:hidden; }
+.nav_left, .nav_right{ width:60px; line-height:40px; background-color:rgba(0, 0, 0, 0); text-align:center; position:absolute; top:5px; overflow:hidden; }
 .nav_left{left:5px}
 .nav_right{right:5px}
 
@@ -117,7 +117,7 @@ a:link, a:activied{color:#000000}
 .t-pop-cont p{text-align:center; line-height:2em; font-size:1.5em; color:#ffffff}
 .t-scroll-lock{}
 .t-wrap, .t-page, .t-nav, .t-scrol{display:none; width:100%; position:fixed; z-index: 99; -moz-user-select: none; -webkit-user-select: none; -ms-user-select: none; user-select: none;}
-.t-wrap, .t-page, .t-nav{background-color:rgba(23, 18, 18, 0.67); color:#ffffff;}
+.t-wrap, .t-page, .t-nav{background-color:rgba(0,0,0,0); color:#ffffff;}
 .t-wrap p{margin:0 20px; padding:12px 0 0 0;}
 .t-wrap span, .t-scrol span{display:inline-block; border-radius: 5px; height: 30px; line-height: 30px; vertical-align: middle; cursor: pointer}
 .t-wrap a, .t-page a, .t-nav a{color:#ffffff;}
@@ -129,7 +129,7 @@ a:link, a:activied{color:#000000}
 .t-nav{height:50px; top:0; left: 0; }
 .t-nav h1{font-size:1em; text-align:center; line-height:50px;}
 .t-nav a{display: inline-block; padding: 0 10px;}
-.t-nav .nav_left, .t-nav .nav_right{background-color:#333333}
+.t-nav .nav_left, .t-nav .nav_right{background-color:rgba(0,0,0,0)}
 .t-font, .t-tips, .t-lack{height:100px; bottom:-100px; left:0}
 .t-menu{height:100px; bottom:0; left:0}
 .t-menu a, .t-menu span{display: block; float: left; text-align:center; height: 50px; line-height: 50px}
@@ -143,8 +143,7 @@ a:link, a:activied{color:#000000}
 .t-next{right:0; border-radius:5px 0 0 5px  }
 .t-off{padding-bottom:10px; bottom:-150px;}
 .t-off .t_c{position:relative;}
-.t-off .t-o-s{display: none}
-.t-font{}
+.t-off .t-o-s{displ#333333}
 .t-font .t-f-s span, .t-money .t-m-s span, .t-cmt .t-c-b span, .t-flower .t-f-s span{width:40%; background-color:#333333}
 .t-font .t-f-b span{width:20%;}
 .t-c-1{background-color:#f1f1f1; color:#21201c;}
@@ -195,3 +194,31 @@ a:link, a:activied{color:#000000}
 
 
 
+#fx {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+#join {
+    display: block;
+    background-repeat: no-repeat;
+    background-image: url(http://mozilla.com.tw/media/img/mocotw/community/joinus-banner.png);
+    background-position: 50% 50%;
+    background-size: 100% auto;
+    width: 100%;
+    height: 100px;
+}
+
+#content {
+    display: inline-block;
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+    border: 1px dotted gray;
+}
+
+#tip {
+    display: inline-block;
+    vertical-align: top;    
+}
